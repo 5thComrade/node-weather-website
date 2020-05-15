@@ -32,8 +32,8 @@ const ui = (data) => {
         document.querySelector('#ui-forecast').textContent = data.forecast;
         document.querySelector('#ui-temperature').textContent = `${data.temperature} C`;
     }
-    
 }
 
+console.log('Yo mama');
 
 
