@@ -11,6 +11,7 @@ const forecast = require('./utils/forecast');
 let d = new Date();
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 //Setup Handlebars Engine
 app.set('view engine', 'hbs');
@@ -80,6 +81,6 @@ app.get('*', (req, res) => {    //match everything other than whats matched abov
     })
 })
 
-app.listen(3000, () => {
-    console.log('Server is up on port 3000');
+app.listen(port, () => {
+    console.log(`Server is up on port ${port}`);
 });
