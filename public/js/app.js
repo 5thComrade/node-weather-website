@@ -34,6 +34,4 @@ const ui = (data) => {
     }
 }
 
-console.log('Yo mama');
-
 
