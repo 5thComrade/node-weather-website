@@ -2,9 +2,9 @@ const home = document.querySelector('#home-link');
 const about = document.querySelector('#about-link');
 const help = document.querySelector('#help-link');
 
-if(window.location.href === "http://localhost:3000/") {
+if(window.location.href === "/") {
     home.style.color = "rgb(255,190,0)";
-} else if(window.location.href === "http://localhost:3000/about") {
+} else if(window.location.href === "/about") {
     about.style.color = "rgb(255,190,0)";
 } else {
     help.style.color = "rgb(255,190,0)";
